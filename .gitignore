@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+data/
+*.csv
+*.pkl
+results/
+__pycache__/
+.DS_Store
+*.ipynb_checkpoints
+iot-research/
