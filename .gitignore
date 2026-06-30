@@ -218,14 +218,23 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-<<<<<<< Updated upstream
+# Virtual environment
+iot-research/
+
+# Data files — never commit these
 data/
 *.csv
 *.pkl
-results/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
-*.ipynb_checkpoints
-=======
->>>>>>> Stashed changes
-iot-research/
+
+# Results (optional — depends if you want to share result files)
+#results/
