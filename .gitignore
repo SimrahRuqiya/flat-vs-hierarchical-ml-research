@@ -218,6 +218,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 
+<<<<<<< Updated upstream
 data/
 *.csv
 *.pkl
@@ -225,4 +226,6 @@ results/
 __pycache__/
 .DS_Store
 *.ipynb_checkpoints
+=======
+>>>>>>> Stashed changes
 iot-research/
