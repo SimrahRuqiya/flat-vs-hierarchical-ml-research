@@ -217,13 +217,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-
 # Virtual environment
 iot-research/
 
 # Data files — never commit these
-data/
-*.csv
+data/*
+!data/X_train.csv
+!data/X_test.csv
+!data/y_train.csv
+!data/y_test.csv
 *.pkl
 
 # Python cache
