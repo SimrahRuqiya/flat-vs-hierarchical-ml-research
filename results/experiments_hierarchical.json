@@ -17,7 +17,7 @@
         ]
       ],
       "false_negative_rate": 0.07511494716463661,
-      "train_time_sec": 33.53313159942627
+      "train_time_sec": 16.716615438461304
     },
     "RF": {
       "train_accuracy": 0.9957989443694368,
@@ -36,7 +36,7 @@
         ]
       ],
       "false_negative_rate": 0.07444274152348687,
-      "train_time_sec": 51.398324966430664
+      "train_time_sec": 85.25657200813293
     },
     "XGB": {
       "train_accuracy": 0.909643409276217,
@@ -55,7 +55,7 @@
         ]
       ],
       "false_negative_rate": 0.08604769971229599,
-      "train_time_sec": 5.066312789916992
+      "train_time_sec": 7.18765115737915
     },
     "LGBM": {
       "train_accuracy": 0.8982698655699859,
@@ -74,7 +74,7 @@
         ]
       ],
       "false_negative_rate": 0.0911941061009384,
-      "train_time_sec": 4.508586168289185
+      "train_time_sec": 7.46696662902832
     },
     "ET": {
       "train_accuracy": 0.9958488448509294,
@@ -93,7 +93,7 @@
         ]
       ],
       "false_negative_rate": 0.07489984135946869,
-      "train_time_sec": 32.82019901275635
+      "train_time_sec": 83.94576120376587
     },
     "HGB": {
       "train_accuracy": 0.8957823736435072,
@@ -112,7 +112,7 @@
         ]
       ],
       "false_negative_rate": 0.09408727918044688,
-      "train_time_sec": 12.427669525146484
+      "train_time_sec": 19.391501665115356
     }
   },
   "stage2_attack_type": {
@@ -154,7 +154,7 @@
         "Mirai",
         "Spoofing"
       ],
-      "train_time_sec": 22.40275287628174
+      "train_time_sec": 13.165360927581787
     },
     "RF": {
       "train_accuracy": 0.9952219366079783,
@@ -194,7 +194,7 @@
         "Mirai",
         "Spoofing"
       ],
-      "train_time_sec": 37.39362049102783
+      "train_time_sec": 35.67924380302429
     },
     "XGB": {
       "train_accuracy": 0.8930313410843542,
@@ -234,7 +234,7 @@
         "Mirai",
         "Spoofing"
       ],
-      "train_time_sec": 11.443772554397583
+      "train_time_sec": 13.252843379974365
     },
     "LGBM": {
       "train_accuracy": 0.8847873667681254,
@@ -274,7 +274,7 @@
         "Mirai",
         "Spoofing"
       ],
-      "train_time_sec": 10.200107097625732
+      "train_time_sec": 8.19011378288269
     },
     "ET": {
       "train_accuracy": 0.9952555470707809,
@@ -314,7 +314,7 @@
         "Mirai",
         "Spoofing"
       ],
-      "train_time_sec": 22.664096117019653
+      "train_time_sec": 19.934075832366943
     },
     "HGB": {
       "train_accuracy": 0.8856249395011669,
@@ -354,7 +354,7 @@
         "Mirai",
         "Spoofing"
       ],
-      "train_time_sec": 17.41215205192566
+      "train_time_sec": 14.116376876831055
     }
   },
   "hierarchical_combined": {
