@@ -7,7 +7,7 @@ def calculate_macro_fnr(model_name_lower):
     """
     Reads the saved confusion matrix CSV for a model and computes the Macro False Negative Rate.
     """
-    cm_path = f"results/{model_name_lower}_confusion_matrix.csv"
+    cm_path = f"../results/{model_name_lower}_confusion_matrix.csv"
     if not os.path.exists(cm_path):
         return 0.0
     
@@ -29,12 +29,12 @@ def calculate_macro_fnr(model_name_lower):
 
 def main():
     result_files = [
-        "results/decision_tree_results.csv",
-        "results/random_forest_results.csv",
-        "results/xgboost_results.csv",
-        "results/lightgbm_results.csv",
-        "results/catboost_results.csv",
-        "results/balanced_random_forest_results.csv"
+        "../results/decision_tree_results.csv",
+        "../results/random_forest_results.csv",
+        "../results/xgboost_results.csv",
+        "../results/lightgbm_results.csv",
+        "../results/catboost_results.csv",
+        "../results/balanced_random_forest_results.csv"
     ]
 
     # Verify all files exist
@@ -61,12 +61,12 @@ def main():
     )
 
     # Save final structured CSV report
-    comparison.to_csv("results/flat_model_comparison.csv", index=False)
+    comparison.to_csv("../results/flat_model_comparison.csv", index=False)
     print("\nSaved comparison table to results/flat_model_comparison.csv")
     print(comparison[["Model", "Accuracy", "Macro F1", "Macro FNR"]])
 
     # Create directories for figures
-    os.makedirs("results/figures", exist_ok=True)
+    os.makedirs("../results/figures", exist_ok=True)
     
     # Define distinct color palette matching the reference image style
     colors = ['#e65141', '#4196e6', '#34ca7e', '#f39c12', '#9b59b6', '#e91e63']
@@ -100,7 +100,7 @@ def main():
 
     plt.suptitle("Flat Pipeline — Final Performance Visualizations", fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    plt.savefig("results/figures/01_final_comparison.png", dpi=300, bbox_inches='tight')
+    plt.savefig("../results/figures/01_final_comparison.png", dpi=300, bbox_inches='tight')
     plt.close()
 
     # =========================================================================
@@ -123,7 +123,7 @@ def main():
     plt.ylim(comparison["Accuracy"].min() - 0.01, comparison["Accuracy"].max() + 0.01)
     
     plt.tight_layout()
-    plt.savefig("results/figures/02_accuracy_vs_fnr.png", dpi=300, bbox_inches='tight')
+    plt.savefig("../results/figures/02_accuracy_vs_fnr.png", dpi=300, bbox_inches='tight')
     plt.close()
     
     print("\n✔️ Successfully generated automated charts inside results/figures/")
