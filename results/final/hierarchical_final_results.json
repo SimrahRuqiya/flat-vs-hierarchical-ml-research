@@ -18,11 +18,7 @@
       ],
       "false_negative_rate": 0.07511494716463661,
       "overfit_gap": 0.10323447881181502,
-<<<<<<< HEAD
       "train_time_sec": 51.51618146896362
-=======
-      "train_time_sec": 41.910627365112305
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "RF": {
       "train_accuracy": 0.9957989443694368,
@@ -42,11 +38,7 @@
       ],
       "false_negative_rate": 0.07444274152348687,
       "overfit_gap": 0.09108043904610119,
-<<<<<<< HEAD
       "train_time_sec": 132.25156235694885
-=======
-      "train_time_sec": 53.411211252212524
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "XGB": {
       "train_accuracy": 0.909643409276217,
@@ -66,11 +58,7 @@
       ],
       "false_negative_rate": 0.08604769971229599,
       "overfit_gap": 0.0008613176779358467,
-<<<<<<< HEAD
       "train_time_sec": 18.80885410308838
-=======
-      "train_time_sec": 3.311141014099121
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "LGBM": {
       "train_accuracy": 0.8982698655699859,
@@ -90,7 +78,6 @@
       ],
       "false_negative_rate": 0.0911941061009384,
       "overfit_gap": -0.000249693498891701,
-<<<<<<< HEAD
       "train_time_sec": 21.816155672073364
     },
     "ET": {
@@ -132,9 +119,6 @@
       "false_negative_rate": 0.09408727918044688,
       "overfit_gap": -4.444753233423526e-05,
       "train_time_sec": 41.96441054344177
-=======
-      "train_time_sec": 3.2507126331329346
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "CAT": {
       "train_accuracy": 0.9176453751668842,
@@ -154,11 +138,7 @@
       ],
       "false_negative_rate": 0.0829179102471028,
       "overfit_gap": 0.0021898128742532386,
-<<<<<<< HEAD
       "train_time_sec": 304.40901827812195
-=======
-      "train_time_sec": 64.97551107406616
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "BRF": {
       "train_accuracy": 0.9183976484633476,
@@ -178,11 +158,7 @@
       ],
       "false_negative_rate": 0.11763060955607539,
       "overfit_gap": 0.008892472004279117,
-<<<<<<< HEAD
       "train_time_sec": 37.27958536148071
-=======
-      "train_time_sec": 20.55404305458069
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     }
   },
   "stage2_attack_type": {
@@ -193,11 +169,7 @@
       "recall_macro": 0.8444394830102775,
       "f1_macro": 0.8448330215630963,
       "overfit_gap": 0.12997093520231806,
-<<<<<<< HEAD
       "train_time_sec": 43.00706744194031
-=======
-      "train_time_sec": 11.847397804260254
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "RF": {
       "train_accuracy": 0.9952219366079783,
@@ -206,11 +178,7 @@
       "recall_macro": 0.8705034224922465,
       "f1_macro": 0.8673401660794415,
       "overfit_gap": 0.11168021952588858,
-<<<<<<< HEAD
       "train_time_sec": 186.2234296798706
-=======
-      "train_time_sec": 28.280064344406128
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "XGB": {
       "train_accuracy": 0.8930313410843542,
@@ -219,11 +187,7 @@
       "recall_macro": 0.8774370281231547,
       "f1_macro": 0.8707488023353154,
       "overfit_gap": 0.005822070024151471,
-<<<<<<< HEAD
       "train_time_sec": 15.67087697982788
-=======
-      "train_time_sec": 9.206727266311646
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "LGBM": {
       "train_accuracy": 0.8847873667681254,
@@ -232,7 +196,6 @@
       "recall_macro": 0.8705185515788028,
       "f1_macro": 0.8639653048506459,
       "overfit_gap": 0.0033160430607768188,
-<<<<<<< HEAD
       "train_time_sec": 8.527121543884277
     },
     "ET": {
@@ -252,9 +215,6 @@
       "f1_macro": 0.8646826969966583,
       "overfit_gap": 0.003588963055252581,
       "train_time_sec": 17.95250177383423
-=======
-      "train_time_sec": 8.17074704170227
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "CAT": {
       "train_accuracy": 0.8910053023866118,
@@ -263,11 +223,7 @@
       "recall_macro": 0.8769657384018652,
       "f1_macro": 0.8703266776763231,
       "overfit_gap": 0.004473614612688026,
-<<<<<<< HEAD
       "train_time_sec": 132.95884227752686
-=======
-      "train_time_sec": 138.03535151481628
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     },
     "BRF": {
       "train_accuracy": 0.919956010626284,
@@ -276,11 +232,7 @@
       "recall_macro": 0.8916974602169738,
       "f1_macro": 0.8818043444941162,
       "overfit_gap": 0.02451356487327916,
-<<<<<<< HEAD
       "train_time_sec": 19.129842519760132
-=======
-      "train_time_sec": 41.135411739349365
->>>>>>> parent of ef63a24 (shap analysis 🧐)
     }
   },
   "hierarchical_combined": {
@@ -492,7 +444,6 @@
       ],
       "false_negative_rate": 0.0911941061009384
     },
-<<<<<<< HEAD
     "ET": {
       "accuracy": 0.8360668702853549,
       "precision_macro": 0.8104983454915538,
@@ -534,49 +485,6 @@
           516,
           2409,
           20158
-=======
-    "CAT": {
-      "accuracy": 0.8523852385238524,
-      "precision_macro": 0.8322645510579181,
-      "recall_macro": 0.8190588011003428,
-      "f1_macro": 0.8231718178518227,
-      "f1_weighted": 0.8516682126765845,
-      "confusion_matrix": [
-        [
-          72544,
-          706,
-          72,
-          3193,
-          3059
-        ],
-        [
-          2612,
-          50205,
-          748,
-          5216,
-          1159
-        ],
-        [
-          334,
-          1170,
-          57371,
-          540,
-          359
-        ],
-        [
-          3724,
-          1034,
-          311,
-          27173,
-          2609
-        ],
-        [
-          8749,
-          395,
-          618,
-          2588,
-          19040
->>>>>>> parent of ef63a24 (shap analysis 🧐)
         ]
       ],
       "labels": [
@@ -586,7 +494,6 @@
         "Mirai",
         "Spoofing"
       ],
-<<<<<<< HEAD
       "false_negative_rate": 0.07489984135946869
     },
     "HGB": {
@@ -691,8 +598,6 @@
         "Mirai",
         "Spoofing"
       ],
-=======
->>>>>>> parent of ef63a24 (shap analysis 🧐)
       "false_negative_rate": 0.0829179102471028
     },
     "BRF": {
